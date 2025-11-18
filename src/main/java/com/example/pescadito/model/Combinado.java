@@ -15,7 +15,7 @@ public class Combinado {
     private Integer id;
 
     @Column(nullable = false)
-    private String nombre ;
+    private static String nombre ;
 
     private String  descripcion;
 
@@ -46,7 +46,7 @@ public class Combinado {
         this.id = id;
     }
 
-    public String getNombre() {
+    public static String getNombre() {
         return nombre;
     }
 
