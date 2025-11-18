@@ -1,13 +1,11 @@
 package com.example.pescadito.model;
 
 
-import jakarta.persistence.Column;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 import javax.annotation.processing.Generated;
 
+@Entity
 public class Combinado {
 
     @Id
